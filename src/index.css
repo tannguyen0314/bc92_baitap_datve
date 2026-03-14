@@ -1,7 +1,7 @@
-/* index.css */
+
 @font-face {
     font-family: 'fontGame';
-    src: url('../font/Pony.ttf'); /* Đảm bảo đường dẫn file font đúng */
+    src: url('../font/Pony.ttf'); 
 }
 
 * {
@@ -13,7 +13,6 @@
 body {
     margin: 0;
     font-family: 'fontGame', sans-serif;
-    /* Bạn có thể để ảnh nền ở đây nếu muốn phủ toàn trang */
     background-image: url('../img/bgmovie.jpg'); 
     background-size: cover;
     background-position: center;

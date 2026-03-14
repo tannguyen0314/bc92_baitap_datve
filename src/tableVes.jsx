@@ -17,7 +17,6 @@ const TableVes = () => {
                 </thead>
                 <tbody>
                     <tr>
-                        <td>{/* Tên người đặt */}</td>
                         <td>{danhSachGheDangDat.length}</td>
                         <td>
                             {danhSachGheDangDat.map((ghe, index) => {

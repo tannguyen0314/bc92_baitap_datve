@@ -1,18 +1,18 @@
-/* App.css */
+
 .booking-container {
-    background-image: url('../img/bgmovie.jpg'); /* Đảm bảo đường dẫn ảnh đúng */
+    background-image: url('../img/bgmovie.jpg'); 
     background-size: cover;
     background-position: center;
     min-height: 100vh;
     display: flex;
-    justify-content: center; /* Căn giữa theo chiều ngang */
-    align-items: center;    /* Căn giữa theo chiều dọc */
+    justify-content: center; 
+    align-items: center;   
     padding: 40px 0;
     font-family: 'fontGame', sans-serif;
 }
 
 .overlay {
-    background-color: rgba(0, 0, 0, 0.85); /* Làm tối nền để nổi bật layout */
+    background-color: rgba(0, 0, 0, 0.85); 
     padding: 30px;
     border-radius: 10px;
     width: 90%;
@@ -31,10 +31,10 @@
     letter-spacing: 5px;
 }
 
-/* Container chứa các hàng ghế */
+
 .seat-map {
     margin: 0 auto;
-    display: inline-block; /* Để nó co lại vừa vặn với nội dung */
+    display: inline-block; 
 }
 
 .firstChar {
@@ -63,24 +63,24 @@
     border-radius: 4px;
     background: white;
     cursor: pointer;
-    transition: all 0.2s; /* Hiệu ứng mượt mà */
+    transition: all 0.2s; 
 }
 
 .ghe:hover {
     background: #eee;
-    transform: scale(1.1); /* Phóng to nhẹ khi di chuột */
+    transform: scale(1.1); 
 }
 
 .gheDuocChon {
-    background: #b33a3a !important; /* Đỏ sậm cho ghế đã đặt */
+    background: #b33a3a !important; 
     border: 2px solid #b33a3a !important;
     cursor: no-drop !important;
 }
 
 .gheDangChon {
-    background: #6dee6d !important; /* Xanh lá cho ghế đang chọn */
+    background: #6dee6d !important; 
     border: 2px solid #6dee6d !important;
-    animation: pulse 1s infinite; /* Hiệu ứng nhấp nháy cho ghế đang chọn */
+    animation: pulse 1s infinite; 
 }
 
 @keyframes pulse {
